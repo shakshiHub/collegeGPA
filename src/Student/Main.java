@@ -74,13 +74,12 @@ public class Main {
 		// (after while loop is done)
 		double gpa = (double) points / untouchedCredits;
 		if (gpa > 3.0) {
-		System.out.printf("Your GPA is %.2f. ", gpa);
-		System.out.print("Congrats!");
-			
-		}
-		else {
 			System.out.printf("Your GPA is %.2f. ", gpa);
-			System.out.print("Keep Working Hard!");
+			System.out.print("Congrats!");// send congrats message if gpa > 3
+
+		} else {
+			System.out.printf("Your GPA is %.2f. ", gpa);
+			System.out.print("Keep working at it!"); // else, send encouraging message
 		}
 	}
 }
