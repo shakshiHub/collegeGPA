@@ -6,9 +6,11 @@ User has the ability to enter however many grades they would like.
 
 GPA calculation based off: 
 
-  GPA = total number of points / total number of credits,
-
-    where total number of points = gradeValue * number of credits,
-
-      where gradeValue is retrieved from character grade. 
-         [A = 4, B = 3, C = 2, ...]
+    GPA = total number of points / total number of credits,
+  
+      where total number of points = gradeValue * number of credits,
+   
+        where gradeValue is retrieved from character grade. 
+      
+          [A = 4, B = 3, C = 2, ...]
+         
